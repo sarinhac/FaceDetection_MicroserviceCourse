@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Faces", "Faces", "{DA74DF52-F768-4E5E-BEBF-A5A0486CA479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacesAPI", "Faces\FacesAPI\FacesAPI.csproj", "{1DA7FD1F-E389-49A0-B451-C4F629113B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacesApiTest", "Faces\FacesApiTest\FacesApiTest.csproj", "{E7E1478D-AED8-4645-9E6D-ABFBFBD89CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DA7FD1F-E389-49A0-B451-C4F629113B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA7FD1F-E389-49A0-B451-C4F629113B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA7FD1F-E389-49A0-B451-C4F629113B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA7FD1F-E389-49A0-B451-C4F629113B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E1478D-AED8-4645-9E6D-ABFBFBD89CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E1478D-AED8-4645-9E6D-ABFBFBD89CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E1478D-AED8-4645-9E6D-ABFBFBD89CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E1478D-AED8-4645-9E6D-ABFBFBD89CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DA7FD1F-E389-49A0-B451-C4F629113B26} = {DA74DF52-F768-4E5E-BEBF-A5A0486CA479}
+		{E7E1478D-AED8-4645-9E6D-ABFBFBD89CDC} = {DA74DF52-F768-4E5E-BEBF-A5A0486CA479}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAB8FD72-3EDA-4734-A46F-09D42496B7E9}
+	EndGlobalSection
+EndGlobal
